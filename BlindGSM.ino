@@ -162,7 +162,7 @@ switch (keypad())  //switch used to specify which button
 }
 void start1() {
     // Check the status of the voice call
-       String remoteNumber = "9747165032";
+       String remoteNumber = "9048747682";
        Serial.println("calling to ");
        Serial.println(remoteNumber);
        remoteNumber.toCharArray(charbuffer, 20);
@@ -179,7 +179,7 @@ void start1() {
 }
 void start2() {
     // Check the status of the voice call
-       String remoteNumber = "9747165032";
+       String remoteNumber = "9539581551";
        Serial.println("calling to ");
        Serial.println(remoteNumber);
        remoteNumber.toCharArray(charbuffer, 20);
@@ -196,7 +196,7 @@ void start2() {
 }
 void start3() {
         // Check the status of the voice call
-       String remoteNumber = "9747165032";
+       String remoteNumber = "8086933488";
        Serial.println("calling to ");
        Serial.println(remoteNumber);
        remoteNumber.toCharArray(charbuffer, 20);
@@ -212,10 +212,10 @@ void start3() {
         sms3();
 }
 void sms1(){
-  char remoteNum[20] = "9747165032" ; // telephone number to send sms
+  char remoteNum[20] = "9048747682" ; // telephone number to send sms
   Serial.print("SMS to ");
   Serial.print(remoteNum);
-  char txtMsg[200] = "Please Help Me !";
+  char txtMsg[200] = "Please Help Me ! My location :10.8814331,76.078371";
   Serial.println("SENDING");
   Serial.println();
   // send the message
@@ -226,10 +226,10 @@ void sms1(){
   //exit(0);
   }
   void sms2(){
-  char remoteNum[20] = "9747165032" ; // telephone number to send sms
+  char remoteNum[20] = "9539581551" ; // telephone number to send sms
   Serial.print("SMS to ");
   Serial.print(remoteNum);
-  char txtMsg[200] = "Please Help Me !";
+  char txtMsg[200] = "Please Help Me ! My location :10.8814331,76.078371";
   Serial.println("SENDING");
   Serial.println();
   // send the message
@@ -240,10 +240,10 @@ void sms1(){
   //exit(0);
   }
 void sms3(){
-  char remoteNum[20] = "9747165032" ; // telephone number to send sms
+  char remoteNum[20] = "8086933488" ; // telephone number to send sms
   Serial.print("SMS to ");
   Serial.print(remoteNum);
-  char txtMsg[200] = "Please Help Me !";
+  char txtMsg[200] = "Please Help Me ! My location :10.8814331,76.078371";
   Serial.println("SENDING");
   Serial.println();
   // send the message
